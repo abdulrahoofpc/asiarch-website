@@ -820,7 +820,7 @@
 
 
 
-/* ---------------------------(SERVICE)---------------------------------------- */
+/* ---------------------------(SERVICE)-------------------------------------------------------------------------------- */
 
 @media screen and (max-width:991px){
     .start {
@@ -840,8 +840,8 @@
     }
 }
 @media screen and (max-width:767px){
-    .residential-cont .row .col{
-        padding: 0px;
+    .res-col.col {
+        padding: 0;
     }
     .residential-p {
         font-size: 11px;
@@ -861,8 +861,9 @@
     .residential-body .images {
         height: 349px;
     }
-    
-    
+    .container.service-head h4 {
+        font-size: 34px;
+    }
 
 }
 @media all and (max-width:566px){
@@ -873,6 +874,9 @@
          margin-bottom: 18px;
 
 
+    }
+    .container.service-head h4 {
+        font-size: 36px;
     }
 
     .start {
@@ -890,11 +894,17 @@
     .residential-body .images {
         height: 327px;
     }
+    .container.service-head h4 {
+        font-size: 35px;
+    }
 
 }
 @media all and (max-width:497px){
     .residential-body .images {
         height: 320px;
+    }
+    .container.service-head h4 {
+        font-size: 33px;
     }
 }
 @media all and (max-width:430px){
@@ -908,10 +918,16 @@
         height: 114px;
         font-size: 12px;
     }
+    .container.service-head h4 {
+        font-size: 30px;
+    }
 }
 @media all and (max-width:385px){
     .residential-p {
         font-size: 7px;
+    }
+    .container.service-head h4 {
+        font-size: 36px;
     }
     .start {
         height: 103px;
@@ -928,11 +944,168 @@
     .residential-body .images  {
         height: 317px;
     }
+    .container.service-head h4 {
+        font-size: 28px;
+    }
 }
 
 @media all and (max-width:335px){
     .residential-body .images {
         height: 277px;
     
+    }
+    .container.service-head h4 {
+        font-size: 26px;
+    }
+}
+
+@media all and (max-width:335px){
+    .residential-body .images {
+        height: 270px;
+    }
+    .container.service-head h4 {
+        font-size: 21px;
+    }
+}
+
+
+/* ------------------------------ (CONTACT)------------------------------------------------------------------ */
+
+@media screen and (max-width:991px){
+    .contact-details {
+        width: 72%;
+    }
+    .contact-form {
+        width: 96%;
+    }
+    
+    .contact-details-head h1{
+        font-size: 57px;
+    }
+    .cont1 label {
+        font-size: 16px;
+    }
+    .cont1 h5 {
+        font-size: 20px;
+    }
+    
+}
+@media screen and (max-width:767px){
+    .contact-details-head h1 {
+        font-size: 51px;
+    }
+    .cont1 label {
+        font-size: 14px;
+    }
+    .cont1 h5 {
+        font-size: 19px;
+    }
+    .contact-form h3 {
+        font-size: 16px;
+    }
+    .contact-details {
+        width: 82%;
+    }
+    .textarea.form-control {
+        height: 166px;
+    }
+    iframe.map-iframe {
+        height: 395px;
+    }
+}
+@media screen and (max-width:575px){
+    .contact.col-6 {
+        width: 100%;
+    }
+    .cont-form.col-6 {
+        width: 100%;
+    }
+    .contact-details {
+        width: 42%;
+    }
+    .contact-form {
+        width: 72%;
+    }
+    .contact-details-bottom {
+        margin: 36px 0;
+    }
+    .contact-details-head h1 {
+        font-size: 48px;
+    }    
+    .cont1 label {
+        font-size: 14px;
+    }
+    .cont1 h5 {
+        font-size: 17px;
+    }
+    .inputs{
+        height: 50px;
+    }
+    element.style {
+        height: 50px;
+    }
+    #exampleInputEmail1 {
+        height: 50px;
+    }
+    .map-body {
+        margin: auto;
+        width: 81%;
+    }
+    iframe.map-iframe {
+        height: 323px;
+    }
+    .contact-details-head {
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width:447px){
+    .contact-details-head h1 {
+        font-size: 42px;
+    }
+    .contact-details {
+        width: 46%;
+    }
+    .cont1 label {
+        font-size: 13px;
+    }
+    .cont1 h5 {
+        font-size: 14px;
+    }
+    .contact-details-bottom {
+        margin: 18px 0;
+    }
+    .cont1 {
+        margin-bottom: 9px;
+    }
+    .contact-form {
+        width: 80%;
+        margin-top: 21px;
+    }
+    .inputs{
+        height: 49px;
+    }
+
+}
+@media screen and (max-width:350px){
+    .contact-details-head h1 {
+        font-size: 37px;
+    }
+    .cont1 label {
+        font-size: 12px;
+    }
+    .cont1 h5 {
+        font-size: 12px;
+    }
+    textarea#exampleFormControlTextarea1 {
+        height: 171px;
+    }
+    .inputs{
+        height: 44px;
+    }
+    /* #exampleInputEmail1 {
+        height: 44px;
+    } */
+    .contact-form h3 {
+        font-size: 14px;
     }
 }
