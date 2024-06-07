@@ -621,7 +621,8 @@
         height: 500px;
     }
     .main-content {
-        top: 10%;
+/*         top: 10%; */
+        top:45%
     }
     .comments{
         flex-direction:column;
@@ -663,7 +664,8 @@
 
 @media screen and (max-width:425px){
     .main-content {
-        top: 11%;
+/*         top: 11%; */
+        top: 45%;
     }
     .col1{
         width: 100%;
@@ -705,7 +707,8 @@
 
 @media screen and (max-width:375px){
     .main-content {
-        top: 19%;
+/*         top: 19%; */
+         top: 49%;
     }
     .main-content p{
         font-size: 8px;
@@ -747,7 +750,8 @@
 
 @media screen and (max-width:325px){
     .main-content {
-        top: 16%;
+/*         top: 16%; */
+        top:50%
     }
     .cont p {
         font-size: 12px;
