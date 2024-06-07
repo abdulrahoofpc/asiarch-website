@@ -132,7 +132,7 @@
         width: 115px !important;
     }
     #slid-work {
-        top: -51px;
+        top: -36px;
     }
     .expert-right.col-6 {
         padding: 0;
@@ -568,7 +568,7 @@
 
 @media screen and (max-width:540px){
     .main-content {
-        top: 19%;
+        top: 39%;
     }
     .main-content p {
         font-size: 11px;
@@ -621,8 +621,7 @@
         height: 500px;
     }
     .main-content {
-        /* top: 10%; */
-        top: 45%;
+        
     }
     .comments{
         flex-direction:column;
@@ -705,9 +704,9 @@
 
 
 @media screen and (max-width:375px){
-    .main-content {
-        top: 49%;
-    }
+    /* .main-content {
+        top: 19%;
+    } */
     .main-content p{
         font-size: 8px;
     }
@@ -747,9 +746,9 @@
 }
 
 @media screen and (max-width:325px){
-    .main-content {
-        top: 50%;
-    }
+    /* .main-content {
+        top: 16%;
+    } */
     .cont p {
         font-size: 12px;
     }
