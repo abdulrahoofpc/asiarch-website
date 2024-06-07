@@ -132,7 +132,7 @@
         width: 115px !important;
     }
     #slid-work {
-        top: -36px;
+        top: -51px;
     }
     .expert-right.col-6 {
         padding: 0;
@@ -621,7 +621,8 @@
         height: 500px;
     }
     .main-content {
-        top: 10%;
+        /* top: 10%; */
+        top: 23%;
     }
     .comments{
         flex-direction:column;
@@ -663,7 +664,7 @@
 
 @media screen and (max-width:425px){
     .main-content {
-        top: 11%;
+        /* top: 11%; */
     }
     .col1{
         width: 100%;

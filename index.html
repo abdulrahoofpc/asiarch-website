@@ -10,6 +10,8 @@
 	<!-- css -->
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
 	<link rel="stylesheet" href="./css/responssive.css">
+	<!-- aos animation -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<!-- fontawsom -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 	<!-- js -->
@@ -155,12 +157,12 @@
 	<section id="consult">
 		<div class="consult-content">
 			<!-- consult header  -->
-			<div class="consult-head">
+			<div class="consult-head" data-aos="zoom-in" >
 				<h4>Step into a World <br>
 					of Pure Luxury</h4>
 			</div>
 			<!-- consult paragraph  -->
-			<div class="consult-parag">
+			<div class="consult-parag" data-aos="flip-left">
 				<p> At ASIARCH, we believe that architecture is more than
 					just buildings; it's about crafting experiences and
 					shaping lifestyles. With a strong foundation in
@@ -171,7 +173,7 @@
 			<!-- consult button  -->
 			<div class="consult-buttn">
 				<div class="consult-buttn-body" >
-					<button class="premium-button">SCHEDULE A CONSULT</button>
+					<button class="premium-button" data-aos="fade-right">SCHEDULE A CONSULT</button>
 				</div>
 			</div>
 		</div>
@@ -181,7 +183,7 @@
 		<div class="experts-cont container">
 			<div class="expertbdy row">
 				<div class="expert-left col-6">
-					<div class="expert-left-cont">
+					<div class="expert-left-cont" data-aos="flip-left">
 						<p>Where others see challenges, we search out<br>
 						 potential. Taylor Jene Homes brings together <br>
 						 precision and craftsmanship with form and<br> 
@@ -190,21 +192,21 @@
 						 the everyday demands of your lifestyle while <br>  
 						 upholding your unique sense of style.”</p>
 					</div>
-					<div class="expert-left-name">
+					<div class="expert-left-name" data-aos="fade-right">
 						<h4>Sajin</h4>
 						<h6>CEO Asiarch</h6>
 					</div>
 				</div>
 				<div class="expert-right col-6">
-					<div class="expert-right-top">
+					<div class="expert-right-top" data-aos="zoom-in-up">
 						<h1>Expertly Crafting <br>
 							Unique, Bespoke <br>
 							Custom Builds 
 						</h1>
 					</div>
 					<div class="expert-right-bottom">
-						<button class="expert-butn1">View portfolio</button>
-						<button class="expert-butn2">ask a question</button>
+						<button class="expert-butn1" data-aos="fade-right">View portfolio</button>
+						<button class="expert-butn2" data-aos="fade-left">ask a question</button>
 					</div>
 				</div>
 			</div>
@@ -212,7 +214,7 @@
 	</section>
 	<!--------------------------------- body highlight--------------------------------- -->
 	<section id="service mt-2" >
-        <div class=" container service-head" style="margin-bottom: 45px;">
+        <div class=" container service-head" data-aos="fade-right" style="margin-bottom: 45px;">
             <h4>Our Services</h4>
         </div>
     </section>
@@ -409,8 +411,12 @@
 	  },
 	}]
   });
-
 </script>
+	<!-- aos animations -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+<script>
+	AOS.init();
+  </script>
 </body>
 </html>
