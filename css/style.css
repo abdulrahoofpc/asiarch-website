@@ -572,7 +572,7 @@ p{
         }
 
         .residential-p{
-            font-family: "Inter", sans-serif;
+            font-family: "Montserrat", sans-serif;
             text-align: justify;
             font-weight: 400;
             font-size: 15px;
@@ -739,13 +739,13 @@ p{
         /* page-3 */
 /* -------------maine -------------------*/
 
-.main{
+/* .main{
     position: relative;
-}
+} */
 /* .main-img{
     height: 900px;
 } */
-.main-img img{
+/* .main-img img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -759,8 +759,8 @@ p{
 .main-content p {
     font-size: 28px;
     font-family: "Italiana" , serif;
-}
-.main-content h1 {
+} */
+/* .main-content h1 {
     color: #fff;
     font-family: "Italiana" , serif;
     font-size: 167px;
@@ -777,7 +777,7 @@ p{
     color: #fff;
     font-size: 36px;
     
-}
+} */
 
 
 /* ----------------------------------------------- ABOUT ----------------------------------------------------- */
