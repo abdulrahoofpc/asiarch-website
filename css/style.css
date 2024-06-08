@@ -175,7 +175,7 @@ p{
         }
         .button:hover, .button:focus {
             color: #313133;
-            transform: translateY(-6px);
+            /* transform: translateY(-6px); */
           }
           
           button:hover::before, button:focus::before {
@@ -186,9 +186,9 @@ p{
             content: '';
             width: 5px; height: 5px;
             border-radius: 100%;
-            border: 15px solid #25D366;
+            border: 8px solid #25D366;
             position: absolute;
-            z-index: 3;
+            z-index: -1;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
@@ -220,7 +220,7 @@ p{
         ul.option {
             display: none;
             position: absolute;
-            top: -205px;
+            top: -217px;
             left: -40px;
         }
 
