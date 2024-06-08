@@ -25,7 +25,7 @@ a:hover,.submit:hover{
 p{
 	line-height:1.6em;
 	font-size: 16px;
-	font-family: 'open_sanslight';
+	font-family: "Montserrat", sans-serif;
 }
 
 
@@ -39,6 +39,7 @@ p{
     font-family: 'demag-font';
     src: url(../fonts/Kalivo-Black.ttf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /* ------------header-section----------------------- */
 .nav-bar{
     background: #ffffff82;
@@ -186,7 +187,7 @@ p{
             content: '';
             width: 5px; height: 5px;
             border-radius: 100%;
-            border: 8px solid #25D366;
+            border: 8px solid #2980b9;
             position: absolute;
             z-index: -1;
             top: 50%;
@@ -298,7 +299,7 @@ p{
             line-height: 1;
         }
         .consult-parag p {
-            font-family: 'demag-font-p';
+            font-family: "Montserrat", sans-serif;
             letter-spacing: 1px;
             font-size: 16px;
             margin-bottom: 50px;
@@ -370,9 +371,8 @@ p{
         }
         .expert-left-cont p{
             letter-spacing: 1px;
-            font-family: 'demag-font-p';
+            font-family: "Montserrat", sans-serif;
             font-size: 16px;
-            font-weight: 700;
             font-style: normal;
             
 
@@ -872,17 +872,19 @@ p{
     margin: 0 auto;
     width: 25%;
     margin-top: 15%;
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
 
 }
 .cont p{
-    font-family: "Inter", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
     font-size: 15px;
 }
 .cont h3{
+    font-family: "Montserrat", sans-serif;
     font-weight: 300;
 }
 .cont h5 {
+    font-family: "Montserrat", sans-serif;
     font-weight: 300
 }
 
@@ -939,22 +941,21 @@ p{
     font-family: "Inter", sans-serif;
     font-size: 30px;
     font-weight: 800;
+    
 
 } */
 .comment_text{
     width: 100%;
 }
 .comment_text p{
-    font-family: "Inter", sans-serif;
-
+    font-family: "Montserrat", sans-serif;
     width: 61%;
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     padding-top: 10px;
     /* line-break:loose; */
 }
 .comment_text span{
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 25px;
     font-weight: 400;
 }
