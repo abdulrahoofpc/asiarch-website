@@ -15,7 +15,7 @@
 	<!-- fontawsom -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 	<!-- js -->
-	<script src="js/script.js" type="text/javascript"></script>
+	<script src="./js/script.js"></script>
 	<!-- cdn slick link -->
 	<!--============== Bootstrap link =============-->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
@@ -143,9 +143,13 @@
 	</section>
 
 	<!----------------------------------------popup icons-------------------------------------------------->
+
 	<section id="social-icon">
 		<div class="social-menu">
-			<ul>
+			<div class="butn-menu">
+				<button onclick="showhidden()"><i class="fa-solid fa-phone-volume fa-fade"></i></button>
+			</div>
+			<ul class="option">
 				<li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
 				<li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
 				<li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
@@ -153,6 +157,8 @@
 			</ul>
 		</div>
 	</section>
+
+
 	<!-- section consult -->
 	<section id="consult">
 		<div class="consult-content">
@@ -278,7 +284,7 @@
 						</div>
 					</div>
 				</div>
-				<!-- 2nd -->
+				<!-- 4nd -->
 
 				<div class="col-4 flip-card mb-4">
 					<div class="flip-card-inner">
@@ -297,7 +303,7 @@
 						</div>
 					</div>
 				</div>
-
+				<!-- 5 -->
 				<div class="col-4 flip-card mb-4">
 					<div class="flip-card-inner">
 						<div class="flip-card-front" style="background-image: url(./images/Renovation\ v\ Restoration.jpg);">
@@ -315,6 +321,7 @@
 						</div>
 					</div>
 				</div>
+				<!-- 6 -->
 				<div class="col-4 flip-card mb-4">
 					<div class="flip-card-inner">
 						<div class="flip-card-front" style="background-image: url(./images/Commercial-space.jpg);">
@@ -332,13 +339,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- 2nd row -->	
-			
+			</div>	
 		</div>
-
-
-		
 		<!-- imag section -->
 		<div class="highlight-img">
 			<img src="./images/highlight-pic.png" alt="" width="100%">
@@ -358,26 +360,11 @@
 		</div>
 	</section>
 
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- boostrap js -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+
 
 <!-- ___________ Slick Slider ______________ -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -412,6 +399,30 @@
 	}]
   });
 </script>
+		<!-- -------------menu-icon------------------------- -->
+
+	<script>
+		let listSection = document.querySelector(".option")
+		let isShow = true;
+		function showhidden(){
+			if (isShow) {
+				listSection.style.display="none";
+				isShow = false;
+			} else{
+				listSection.style.display="block"
+				isShow = true;
+			}
+		
+	} 
+	</script>
+
+
+
+
+
+
+
+
 	<!-- aos animations -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
