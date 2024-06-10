@@ -38,3 +38,10 @@ let listSection = document.querySelector(".option")
 			}
 		
 	} 
+
+
+	// ------------------------------our team---------------------------------
+
+
+
+	
