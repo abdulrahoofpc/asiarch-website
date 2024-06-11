@@ -285,6 +285,9 @@
     .slick-slider .card {
         height: 200px;
     }
+    #slid-work {
+        top: -45px;
+    }
     .expert-right-top h1 {
         font-size: 35px;
     }
