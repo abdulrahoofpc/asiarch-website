@@ -191,7 +191,7 @@ p{
             content: '';
             width: 5px; height: 5px;
             border-radius: 100%;
-            border: 8px solid #0f3d5e;
+            border: 10px solid #ac852e;
             position: absolute;
             z-index: -1;
             top: 50%;
@@ -1016,7 +1016,7 @@ a {
     padding: 30px 0 40px;
     border-radius: 45px;
     margin-bottom: 30px;
-    /* background-color: #f7f5ec; */
+    background-color: #f7f5ec;
     text-align: center;
     overflow: hidden;
     position: relative;
