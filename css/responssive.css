@@ -85,7 +85,7 @@
         font-size: 11px;
     }
     .footer-cont p {
-        margin: 7.5px;
+        /* margin: 7.5px; */
     }
 }
 @media screen and (max-width:896px){
@@ -197,7 +197,11 @@
     
 
 }
-@media screen and (max-width:680px){}
+@media screen and (max-width:680px){
+    .footer-cont p {
+        font-size: 10px;
+    }
+}
 @media screen and (max-width:640px){
     .expert-right-bottom .expert-butn1 {
         font-size: 9px;
@@ -244,6 +248,9 @@
 
 }
 @media screen and (max-width:531px){
+    .footer-cont p {
+        font-size: 9px;
+    }
     .consult-content {
         width: 63%;
     }
@@ -262,6 +269,12 @@
     .consult-parag p {
         font-size: 11px;
     }
+}
+@media screen and (max-width:479px){
+    .footer-cont p {
+        font-size: 7px;
+    }
+
 }
 @media screen and (max-width:471px){
     .expert-right-top h1 {
@@ -307,10 +320,10 @@
         font-size: 15px;
     }
     .footer-cont p {
-        font-size: 8px;
+        font-size: 6px;
     }
-    .footer-logo img{
-        width: 60px !important;
+    .footer-logo img {
+        width: 47px !important;
     }
     
 }
@@ -342,6 +355,9 @@
 }
 
 @media screen and (max-width:335px){
+    .footer-cont p {
+        font-size: 5px;
+    }
     .consult-head h4 {
         font-size: 30px;
     }

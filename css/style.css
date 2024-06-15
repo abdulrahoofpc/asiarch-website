@@ -573,12 +573,12 @@ p{
           /* ----------------------footer----------------------- */
 
         #footer{
-            text-align: center;
             background: #D9D9D9;
-            padding-bottom: 1%;
+            /* padding-bottom: 1%; */
             overflow: hidden;
         }
         .footer-body {
+            text-align: center;
 
         }
         .footer-logo {
@@ -586,9 +586,23 @@ p{
         .footer-cont p {
             font-family: 'demag-font-p';
             font-size: 16px;
-            line-height: 0.5;
+            line-height: 0.9;
             font-weight: 600;
         }
+
+        .footer-cont .row col{
+
+        }
+        .dev-d{
+            margin-left: 20px;
+
+        }
+        /* .footer-cont .dev-p{
+            font-size: 10px;
+        } */
+        /* ----------------------------------------- */
+
+
 
         /* ----------------------responssive--------------------------------------- */
 
@@ -1014,7 +1028,7 @@ a {
 
 .our-team {
     padding: 30px 0 40px;
-    /* border-radius: 45px; */
+    border-radius: 40px;
     margin-bottom: 30px;
     /* background-color: #f7f5ec; */
     text-align: center;
@@ -1096,11 +1110,13 @@ a {
     width: 100%;
     padding: 0;
     margin: 0;
-    background-color: #0f3d5e;
+    /* background-color: #0f3d5e; */
     position: absolute;
     bottom: -100px;
     left: 0;
     transition: all 0.5s ease 0s;
+    /* clip-path: polygon(0 0, 100% 0, 93% 52%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 9% 54%); */
+    border-radius: 30px;
   }
   
   .our-team:hover .social {
@@ -1109,20 +1125,26 @@ a {
   
   .our-team .social li {
     display: inline-block;
+    width: 40px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-color: #0f3d5e;
   }
   
   .our-team .social li a {
     display: block;
     padding: 10px;
     font-size: 17px;
-    color: white;
+    color: rgb(255, 255, 255);
     transition: all 0.3s ease 0s;
     text-decoration: none;
   }
   
   .our-team .social li a:hover {
     color: #0f3d5e;
-    background-color: #f7f5ec;
+    /* background-color: #f7f5ec; */
+    color: #fff;
+    border-radius: 20%;
   }
   
 
