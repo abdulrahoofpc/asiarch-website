@@ -1126,6 +1126,7 @@ a {
   .our-team .social li {
     display: inline-block;
     width: 40px;
+    height: auto;
     /* border: 1px solid black; */
     border-radius: 50%;
     background-color: #0f3d5e;
